@@ -3,16 +3,54 @@
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.10.1",
-    "@rails/webpacker": "5.1.1",
+    "@rails/webpacker": "5.4.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.7.1",
     "popper.js": "^1.16.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "3.11.3"
+  },
+  "overrides": {
+    "ansi-html": "^0.0.8",
+    "braces": "^3.0.3",
+    "follow-redirects": "^1.15.6",
+    "http-proxy-middleware": "^2.0.9",
+    "json5": "^2.2.3",
+    "loader-utils": "^2.0.4",
+    "minimist": "^1.2.8",
+    "node-forge": "^1.3.2",
+    "nth-check": "^2.1.1",
+    "semver": "^7.5.4",
+    "serialize-javascript": "^7.0.5",
+    "tar": "^7.5.11",
+    "url-parse": "^1.5.10",
+    "uuid": "^8.3.2",
+    "webpack": "^4.47.0",
+    "webpack-dev-middleware": "^5.3.4",
+    "ws": "^6.2.3"
+  },
+  "resolutions": {
+    "ansi-html": "^0.0.8",
+    "braces": "^3.0.3",
+    "follow-redirects": "^1.15.6",
+    "http-proxy-middleware": "^2.0.9",
+    "json5": "^2.2.3",
+    "loader-utils": "^2.0.4",
+    "minimist": "^1.2.8",
+    "node-forge": "^1.3.2",
+    "nth-check": "^2.1.1",
+    "semver": "^7.5.4",
+    "serialize-javascript": "^7.0.5",
+    "tar": "^7.5.11",
+    "url-parse": "^1.5.10",
+    "uuid": "^8.3.2",
+    "webpack": "^4.47.0",
+    "webpack-dev-middleware": "^5.3.4",
+    "ws": "^6.2.3"
   }
 }

@@ -29,5 +29,8 @@ module TodoApplication
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Mitigate CVE-2022-32224 for serialized Active Record columns
+    config.active_record.yaml_column_permitted_classes = [Symbol, Date, Time]
   end
 end
