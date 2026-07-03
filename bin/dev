@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "fileutils"
+
+APP_ROOT = File.expand_path("..", __dir__)
+
+FileUtils.chdir APP_ROOT do
+  unless system("gem list foreman -i --silent")
+    system("gem install foreman") || abort("Failed to install foreman")
+  end
+
+  exec "foreman", "start", "-f", "Procfile.dev", *ARGV
+end
